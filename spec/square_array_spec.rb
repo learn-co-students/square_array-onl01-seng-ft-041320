@@ -6,6 +6,7 @@ describe '#square_array' do
     expect(numbers).to_not receive(:map)
     expect(numbers).to_not receive(:inject)
     square_array(numbers)
+    #square_array([1,2,3])
   end
 
   it 'calls on each' do
